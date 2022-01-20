@@ -4,13 +4,14 @@
       <img src="../assets/susscess.svg" />
     </div>
     <div class="text"></div>
-    <p>Chân thành cảm ơn Quý khách</p>
-    <p>
-      Những lời khen của Quý khách là nguồn động viên tinh thần to lớn giúp Nhân
-      viên nói riêng và bộ phận CSKH Vietmap nói chung phụ vụ Quý khách hàng
-      ngày một tốt hơn
-    </p>
-    <p>Chúc Quý khách một ngày vui vẻ</p>
+    <pre>
+      Chân thành cảm ơn Quý khách
+       Những lời khen của Quý khách là nguồn động viên tinh 
+       thần to lớn giúp Nhân viên nói riêng và
+       bộ phận CSKH Vietmap nói chung phụ vụ Quý khách
+       hàng ngày một tốt hơn
+       Chúc Quý khách một ngày vui vẻ
+    </pre>
     <p class="text-3">TRÂN TRỌNG !</p>
     <router-link to="/">
       <b-button type="submit" class="btn btn-primary changescreen">
@@ -42,6 +43,7 @@ img {
   line-height: 48px;
   color: #00aeef;
   margin-bottom: 80px;
+  font-weight: bold;
 }
 button {
   background-color: #01a3e0;
@@ -55,6 +57,9 @@ button {
 @media (max-width: 576px) {
   .text {
     font-size: 16px;
+  }
+  button {
+    font-size: 10px;
   }
 }
 </style>

@@ -9,22 +9,26 @@
         <div class="text">
           <p class="text-1">Chào mừng Quý khách đến với</p>
           <a class="text-show">SHOWROOM VIETMAP</a>
-          <p class="text-2">
-            Với mong muốn hỗ trợ khách hàng ngày một tốt hơn,
+          <pre class="text-2">
+  Với mong muốn hỗ trợ khách hàng ngày một tốt hơn,
+  Vietmap trân trọng kính mời Quý khách đánh giá chất lượng hỗ trợ
+  của nhân viên Showroom
+          </pre>
+          <!-- <p class="text-2">
+            
           </p>
-          <p class="text-2">
-            Vietmap trân trọng kính mời Quý khách đánh giá chất lượng hỗ trợ
-          </p>
-          <p class="text-2">của nhân viên Showroom</p>
+          <p class="text-2"></p> -->
         </div>
         <div id="info">
           <info-customer></info-customer>
           <div class="text">
-            <p class="text-2">
-              Với những trải nghiệm thực tế tại Showroom hôm nay,
-            </p>
-            <p class="text-2">Quý khách vui lòng chia sẻ mức độ hài lòng về</p>
-            <p class="text-2">chất lượng hỗ trợ của nhân viên tư vấn</p>
+            <pre class="text-2">
+  Với những trải nghiệm thực tế tại Showroom hôm nay,
+  Quý khách vui lòng chia sẻ mức độ hài lòng về
+  chất lượng hỗ trợ của nhân viên tư vấn
+            </pre>
+            <!-- <p class="text-2"></p>
+            <p class="text-2"></p> -->
           </div>
         </div>
         <div class="rating">
@@ -92,25 +96,30 @@
                 <img src="../assets/button6.svg" />
               </div>
               <div class="text-comment">
-                <p class="text-4">
-                  Vietmap xin lỗi vì nhân viên Trần Phối Dung
-                </p>
-                <p class="text-4">chưa làm Quý khách hài lòng</p>
+                <pre class="text-4">
+  Vietmap xin lỗi vì nhân viên Vietmap
+  chưa làm Quý khách hài lòng
+                </pre>
+                <!-- <p class="text-4"></p> -->
               </div>
               <div class="text-popup">
-                <p class="text-2">
-                  Quý khách vui lòng chia sẻ những điều không hài lòng để
+                <pre>
+  Quý khách vui lòng chia sẻ những điều không hài lòng để
+  Vietmap cải thiện chất lượng hoặc để lại số điện thoại,
+  Quản lý bộ phận CSKH Vietmap sẽ liên hệ lại để hỗ trợ Quý
+  khách tốt hơn cũng như để nâng cao chất lượng phục vụ
+  khách hàng tại Showroom
+                </pre>
+                <!-- <p class="text-2">
+                  
                 </p>
                 <p class="text-2">
-                  Vietmap cải thiện chất lượng hoặc để lại số điện thoại,
+                  
                 </p>
                 <p class="text-2">
-                  Quản lý bộ phận CSKH Vietmap sẽ liên hệ lại để hỗ trợ Quý
+                  
                 </p>
-                <p class="text-2">
-                  khách tốt hơn cũng như để nâng cao chất lượng phục vụ
-                </p>
-                <p class="text-2">khách hàng tại Showroom</p>
+                <p class="text-2"></p> -->
               </div>
               <b-form>
                 <b-form-group
@@ -605,9 +614,7 @@ a {
   color: #292c2e;
   font-weight: bold;
 }
-.close {
-  align-items: right;
-}
+
 .image-popup {
   width: 96px;
   height: 96px;
@@ -635,6 +642,7 @@ a {
 }
 .form-control {
   margin-bottom: 10px;
+  font-size: 12px;
 }
 form-input {
   border: 1px solid;
@@ -658,6 +666,9 @@ textarea {
   align-items: center;
   width: 50%;
   padding: 3rem;
+}
+button.close {
+  border: 1px solid #fff;
 }
 .image-popup {
   align-items: center;
@@ -721,7 +732,7 @@ p {
     display: none;
   }
   .text-1 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
   }
   .text-show {
@@ -729,7 +740,7 @@ p {
     margin: 15px;
   }
   .text-2 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .rating {
     margin-top: 0;
@@ -749,6 +760,10 @@ p {
   .text-comment {
     font-size: 16px;
   }
+  .text-popup {
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
 /* Tablet */
@@ -761,6 +776,13 @@ p {
   }
   button {
     margin: 0;
+  }
+  .text-popup {
+    font-size: 16px;
+    text-align: center;
+  }
+  .text-4 {
+    font-size: 20px;
   }
 }
 /*Extra large devices (large desktops, 1200px and up) */
@@ -799,6 +821,9 @@ p {
   .modal-body {
     position: relative;
     padding: 3rem;
+  }
+  .text-comment {
+    margin-bottom: 20px;
   }
 }
 </style>
