@@ -255,7 +255,7 @@
             Với mong muốn hỗ trợ khách hàng ngày một tốt hơn,
           </p>
           <p class="text-2">
-            Vietmap trân trọng kính mời Qúy khách đánh giá chất lượng hỗ trợ
+            Vietmap trân trọng kính mời Quý khách đánh giá chất lượng hỗ trợ
           </p>
           <p class="text-2">của nhân viên Showroom</p>
         </div>
@@ -783,6 +783,9 @@ p {
   }
   .text-4 {
     font-size: 20px;
+  }
+  .text-2 {
+    margin-top: 20px;
   }
 }
 /*Extra large devices (large desktops, 1200px and up) */
