@@ -46,13 +46,20 @@
   margin: 0;
   margin-bottom: 20px;
 }
+
 .container-fluid img {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+pre {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  margin-top: 30px !important;
+  overflow: hidden;
+}
 body {
   margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 /* tablet */

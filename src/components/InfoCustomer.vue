@@ -4,7 +4,7 @@
       <img src="../assets/istockphoto-922962354-612x612.jpg" />
     </div>
     <div class="name">
-      <p>{{ name }}</p>
+      <p>Trần Phối Dung</p>
     </div>
   </div>
 </template>
@@ -17,24 +17,27 @@
 }
 img {
   border: 1px solid #2787f4;
-
   border-radius: 0;
-  width: 200px;
-  height: 250px;
-}
-.image {
-  padding: 20px;
+  width: 100px;
+  height: 150px;
 }
 .name {
   font-size: 28px;
   font-weight: bold;
   color: #292c2e;
 }
+p {
+  font-size: 25px;
+}
 @media (min-width: 992px) {
   img {
     border-radius: 0;
     width: 200px;
     height: 250px;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -43,6 +46,10 @@ img {
     border-radius: 50%;
     width: 200px;
     height: 250px;
+  }
+  p {
+    font-size: 40px;
+    margin-top: 20px;
   }
 }
 

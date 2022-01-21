@@ -5,12 +5,12 @@
     </div>
     <div class="text"></div>
     <pre>
-      Chân thành cảm ơn Quý khách
-       Những lời khen của Quý khách là nguồn động viên tinh 
-       thần to lớn giúp Nhân viên nói riêng và
-       bộ phận CSKH Vietmap nói chung phụ vụ Quý khách
-       hàng ngày một tốt hơn
-       Chúc Quý khách một ngày vui vẻ
+  Chân thành cảm ơn Quý khách
+  Những lời khen của Quý khách là nguồn động viên tinh 
+  thần to lớn giúp Nhân viên nói riêng và
+  bộ phận CSKH Vietmap nói chung phụ vụ Quý khách
+  hàng ngày một tốt hơn
+  Chúc Quý khách một ngày vui vẻ
     </pre>
     <p class="text-3">TRÂN TRỌNG !</p>
     <router-link to="/">

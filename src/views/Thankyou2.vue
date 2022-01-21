@@ -26,10 +26,10 @@
       </div>
       <div class="text">
         <pre>
-        Chân thành cảm ơn những ý kiến góp ý của Quý khách
-        Vietmap xin ghi nhận để cải thiện chất lượng dịch vụ,
-        phục vụ khách hàng tốt hơn trong thời gian tới
-        Chúc Quý khách một ngày vui vẻ
+    Chân thành cảm ơn những ý kiến góp ý của Quý khách
+    Vietmap xin ghi nhận để cải thiện chất lượng dịch vụ,
+    phục vụ khách hàng tốt hơn trong thời gian tới
+    Chúc Quý khách một ngày vui vẻ
       </pre
         >
         <p class="text-3">TRÂN TRỌNG !</p>

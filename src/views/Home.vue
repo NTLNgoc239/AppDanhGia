@@ -9,7 +9,7 @@
         <div class="text">
           <p class="text-1">Chào mừng Quý khách đến với</p>
           <a class="text-show">SHOWROOM VIETMAP</a>
-          <pre class="text-2">
+          <pre class="text-home">
   Với mong muốn hỗ trợ khách hàng ngày một tốt hơn,
   Vietmap trân trọng kính mời Quý khách đánh giá chất lượng hỗ trợ
   của nhân viên Showroom
@@ -22,7 +22,7 @@
         <div id="info">
           <info-customer></info-customer>
           <div class="text">
-            <pre class="text-2">
+            <pre class="text-home">
   Với những trải nghiệm thực tế tại Showroom hôm nay,
   Quý khách vui lòng chia sẻ mức độ hài lòng về
   chất lượng hỗ trợ của nhân viên tư vấn
@@ -172,16 +172,25 @@
               <img src="../assets/button7.svg" />
             </div>
             <div class="text-comment">
-              <p class="text-4">Vietmap rất tiếc vì nhân viên Showroom</p>
-              <p class="text-4">chưa đáp ứng được mong đợi của Quý khách</p>
+              <pre>
+          Vietmap rất tiếc vì nhân viên Showroom 
+          chưa đáp ứng được mong đợi của Quý khách
+                </pre
+              >
+              <!-- <p class="text-4">Vietmap rất tiếc vì nhân viên Showroom</p>
+              <p class="text-4">chưa đáp ứng được mong đợi của Quý khách</p> -->
             </div>
             <div class="text-popup">
-              <p class="text-2">
+              <pre>
+          Quý khách vui lòng góp ý những điểm nhân viên 
+          Vietmap cần cải thiện để Quý khách hài lòng hơn
+              </pre>
+              <!-- <p class="text-2">
                 Quý khách vui lòng góp ý những điểm nhân viên
               </p>
               <p class="text-2">
                 Trần Phối Dung cần cải thiện để Quý khách hài lòng hơn
-              </p>
+              </p> -->
             </div>
             <form>
               <b-form-group
@@ -346,8 +355,11 @@
                   <img src="../assets/button6.svg" />
                 </div>
                 <div class="text-comment">
-                  <p>Vietmap xin lỗi vì nhân viên Trần Phối Dung</p>
-                  <p>chưa làm Quý khách hài lòng</p>
+                  <pre>
+    Vietmap xin lỗi vì nhân viên Vietmap
+    chưa làm Quý khách hài lòng
+                  </pre>
+                  <!-- <p></p> -->
                 </div>
                 <b-row>
                   <b-col sm="6">
@@ -359,15 +371,20 @@
                         Quý khách tốt hơn cũng như để nâng cao chất lượng phục
                         vụ khách hàng tại Showroom
                       </p>
-
                       <!-- <p>
-                      Vietmap cải thiện chất lượng hoặc để lại số điện thoại,
-                    </p>
-                    <p>
-                      Quản lý bộ phận CSKH Vietmap sẽ liên hệ lại để hỗ trợ Quý
-                    </p>
-                    <p>khách tốt hơn cũng như để nâng cao chất lượng phục vụ</p>
-                    <p>khách hàng tại Showroom</p> -->
+                        Quý khách vui lòng chia sẻ những điều không hài lòng
+                      </p>
+                      <p>
+                        Vietmap cải thiện chất lượng hoặc để lại số điện thoại,
+                      </p>
+                      <p>
+                        Quản lý bộ phận CSKH Vietmap sẽ liên hệ lại để hỗ trợ
+                        Quý
+                      </p>
+                      <p>
+                        khách tốt hơn cũng như để nâng cao chất lượng phục vụ
+                      </p>
+                      <p>khách hàng tại Showroom</p> -->
                     </div>
                   </b-col>
 
@@ -425,18 +442,18 @@
                 <img src="../assets/button7.svg" />
               </div>
               <div class="text-comment">
-                <p>
-                  Vietmap rất tiếc vì nhân viên Showroom chưa đáp ứng được mong
-                  đợi của Quý khách
-                </p>
+                <pre>
+Vietmap rất tiếc vì nhân viên Showroom 
+chưa đáp ứng được mong đợi của Quý khách
+                </pre>
                 <!-- <p>chưa đáp ứng được mong đợi của Quý khách</p> -->
               </div>
               <b-row>
                 <b-col sm="6">
                   <div class="text-popup">
                     <p>
-                      Quý khách vui lòng góp ý những điểm nhân viên Trần Phối
-                      Dung cần cải thiện để Quý khách hài lòng hơn
+                      Quý khách vui lòng góp ý những điểm nhân viên Vietmap cần
+                      cải thiện để Quý khách hài lòng hơn
                     </p>
                   </div>
                 </b-col>
@@ -538,20 +555,19 @@ export default {
   width: 100vw;
   height: 100vh;
   text-align: center;
-  margin-top: 40px;
   flex-direction: row;
   margin-bottom: 10px;
 }
 .content {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .text {
-  line-height: 30px;
+  line-height: 20px;
 }
 .text-1 {
   color: #292c2e;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .text-show {
   font-size: 48px;
@@ -563,7 +579,7 @@ export default {
 }
 .text-2 {
   font-size: 16px;
-  color: #464a4d;
+  color: #292c2e;
   text-align: center;
 }
 .rating {
@@ -609,7 +625,7 @@ a {
   text-decoration: none;
 }
 .text-3 {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
   color: #292c2e;
   font-weight: bold;
@@ -632,7 +648,9 @@ a {
 .text-popup {
   font-size: 18px;
   color: #464a4d;
-
+  justify-content: center;
+  align-items: center;
+  display: flex;
   margin-bottom: 40px px;
 }
 .label {
@@ -687,6 +705,9 @@ p {
   width: 100%;
 }
 @media (min-width: 992px) {
+  .home {
+    margin-top: 30px;
+  }
   button {
     width: 180px;
     height: 180px;
@@ -753,6 +774,8 @@ p {
   }
   button {
     width: 50px;
+    margin: 5px;
+    height: 50px;
   }
   .modal-body {
     padding: 4rem;
@@ -761,13 +784,19 @@ p {
     font-size: 16px;
   }
   .text-popup {
-    font-size: 12px;
+    font-size: 13px !important;
     text-align: center;
+  }
+  .text-home {
+    font-size: 12px;
   }
 }
 
 /* Tablet */
 @media (min-width: 768px) {
+  .home {
+    margin-top: 30px;
+  }
   #session1 {
     visibility: visible;
   }
@@ -787,9 +816,16 @@ p {
   .text-2 {
     margin-top: 20px;
   }
+  .text-home {
+    font-size: 25px;
+    line-height: 40px;
+  }
 }
 /*Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) {
+  .home {
+    margin-top: 30px;
+  }
   #session1 {
     display: none;
   }
