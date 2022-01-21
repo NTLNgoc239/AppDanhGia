@@ -96,10 +96,10 @@
                 <img src="../assets/button6.svg" />
               </div>
               <div class="text-comment">
-                <pre class="text-4">
-  Vietmap xin lỗi vì nhân viên Vietmap
-  chưa làm Quý khách hài lòng
-                </pre>
+                <p class="text-4">
+                  Vietmap xin lỗi vì nhân viên Vietmap chưa làm Quý khách hài
+                  lòng
+                </p>
                 <!-- <p class="text-4"></p> -->
               </div>
               <div class="text-popup">
@@ -173,9 +173,8 @@
             </div>
             <div class="text-comment">
               <p>
-                Vietmap rất tiếc vì nhân viên Showroom <br />chưa đáp ứng được
-                mong đợi<br />
-                của Quý khách<br />
+                Vietmap rất tiếc vì nhân viên Showroom chưa đáp ứng được mong
+                đợi của Quý khách
               </p>
               <!-- <p class="text-4">Vietmap rất tiếc vì nhân viên Showroom</p>
               <p class="text-4">chưa đáp ứng được mong đợi của Quý khách</p> -->
@@ -228,8 +227,7 @@
               <img src="../assets/button8.svg" />
             </div>
             <div class="text-comment">
-              <p class="text-4">Quý khách vui lòng cho</p>
-              <p class="text-4">Vietmap xin số điện thoại</p>
+              <p>Quý khách vui lòng cho Vietmap xin số điện thoại</p>
             </div>
             <form>
               <b-form-group
@@ -784,7 +782,7 @@ pre {
     padding: 4rem;
   }
   .text-comment {
-    font-size: 16px;
+    font-size: 18px;
   }
   .text-popup {
     font-size: 13px !important;
