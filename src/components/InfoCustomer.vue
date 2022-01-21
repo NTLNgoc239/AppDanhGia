@@ -25,6 +25,7 @@ img {
   font-size: 28px;
   font-weight: bold;
   color: #292c2e;
+  margin-top: 20px;
 }
 p {
   font-size: 25px;
@@ -37,7 +38,7 @@ p {
   }
   p {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -49,6 +50,9 @@ p {
   }
   p {
     font-size: 40px;
+    margin-top: 30px;
+  }
+  .name {
     margin-top: 20px;
   }
 }
@@ -58,6 +62,13 @@ p {
     border-radius: 0;
     width: 200px;
     height: 250px;
+  }
+  p {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .name {
+    margin-top: 20px;
   }
 }
 </style>

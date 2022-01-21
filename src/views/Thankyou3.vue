@@ -52,7 +52,7 @@ button {
   color: #ffffff;
   border: 1px solid #01a3e0;
   border-radius: 8px;
-  width: 50%;
+  width: 70%;
 }
 @media (max-width: 576px) {
   .text {

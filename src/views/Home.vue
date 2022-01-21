@@ -91,7 +91,7 @@
         <!-- Popup1 -->
         <div>
           <b-modal id="modal-center1" hide-footer="true">
-            <div class="modal-center___BV_modal_body_">
+            <div class="modal-center___BV_modal_body_" style="padding: 2rem">
               <div class="image-popup">
                 <img src="../assets/button6.svg" />
               </div>
@@ -103,13 +103,13 @@
                 <!-- <p class="text-4"></p> -->
               </div>
               <div class="text-popup">
-                <pre>
-  Quý khách vui lòng chia sẻ những điều không hài lòng để
-  Vietmap cải thiện chất lượng hoặc để lại số điện thoại,
-  Quản lý bộ phận CSKH Vietmap sẽ liên hệ lại để hỗ trợ Quý
-  khách tốt hơn cũng như để nâng cao chất lượng phục vụ
-  khách hàng tại Showroom
-                </pre>
+                <p>
+                  Quý khách vui lòng chia sẻ những điều không hài lòng để
+                  Vietmap cải thiện chất lượng hoặc để lại số điện thoại, Quản
+                  lý bộ phận CSKH Vietmap sẽ liên hệ lại để hỗ trợ Quý khách tốt
+                  hơn cũng như để nâng cao chất lượng phục vụ khách hàng tại
+                  Showroom
+                </p>
                 <!-- <p class="text-2">
                   
                 </p>
@@ -167,24 +167,24 @@
 
         <!-- Popup3 -->
         <b-modal id="modal-center3" hide-footer="true">
-          <div class="modal-center___BV_modal_body_">
+          <div class="modal-center___BV_modal_body_" style="padding: 2rem">
             <div class="image-popup">
               <img src="../assets/button7.svg" />
             </div>
             <div class="text-comment">
-              <pre>
-          Vietmap rất tiếc vì nhân viên Showroom 
-          chưa đáp ứng được mong đợi của Quý khách
-                </pre
-              >
+              <p>
+                Vietmap rất tiếc vì nhân viên Showroom <br />chưa đáp ứng được
+                mong đợi<br />
+                của Quý khách<br />
+              </p>
               <!-- <p class="text-4">Vietmap rất tiếc vì nhân viên Showroom</p>
               <p class="text-4">chưa đáp ứng được mong đợi của Quý khách</p> -->
             </div>
             <div class="text-popup">
-              <pre>
-          Quý khách vui lòng góp ý những điểm nhân viên 
-          Vietmap cần cải thiện để Quý khách hài lòng hơn
-              </pre>
+              <p>
+                Quý khách vui lòng góp ý những điểm nhân viên Vietmap cần cải
+                thiện để Quý khách hài lòng hơn
+              </p>
               <!-- <p class="text-2">
                 Quý khách vui lòng góp ý những điểm nhân viên
               </p>
@@ -223,7 +223,7 @@
         </b-modal>
         <!-- Popup45 -->
         <b-modal id="modal-center" hide-footer="true">
-          <div class="modal-center___BV_modal_body_">
+          <div class="modal-center___BV_modal_body_" style="padding: 2rem">
             <div class="image-popup">
               <img src="../assets/button8.svg" />
             </div>
@@ -355,10 +355,10 @@
                   <img src="../assets/button6.svg" />
                 </div>
                 <div class="text-comment">
-                  <pre>
-    Vietmap xin lỗi vì nhân viên Vietmap
-    chưa làm Quý khách hài lòng
-                  </pre>
+                  <p>
+                    Vietmap xin lỗi vì nhân viên Vietmap chưa làm Quý khách hài
+                    lòng
+                  </p>
                   <!-- <p></p> -->
                 </div>
                 <b-row>
@@ -442,10 +442,10 @@
                 <img src="../assets/button7.svg" />
               </div>
               <div class="text-comment">
-                <pre>
-Vietmap rất tiếc vì nhân viên Showroom 
-chưa đáp ứng được mong đợi của Quý khách
-                </pre>
+                <p>
+                  Vietmap rất tiếc vì nhân viên Showroom chưa đáp ứng được mong
+                  đợi của Quý khách
+                </p>
                 <!-- <p>chưa đáp ứng được mong đợi của Quý khách</p> -->
               </div>
               <b-row>
@@ -683,7 +683,7 @@ textarea {
 .modal-body {
   align-items: center;
   width: 50%;
-  padding: 3rem;
+  padding: 3rem !important;
 }
 button.close {
   border: 1px solid #fff;
@@ -703,6 +703,9 @@ p {
 }
 .image {
   width: 100%;
+}
+pre {
+  overflow: hidden;
 }
 @media (min-width: 992px) {
   .home {
@@ -819,6 +822,9 @@ p {
   .text-home {
     font-size: 25px;
     line-height: 40px;
+  }
+  pre {
+    overflow: hidden;
   }
 }
 /*Extra large devices (large desktops, 1200px and up) */
